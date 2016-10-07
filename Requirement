@@ -1,5 +1,5 @@
 
-Create an angular js application to create and display articles
+Create an angular js Article Box application to perform CRUD operations
 Contents/pages : 
 1) Login page
     Create users in a json file and read it
@@ -21,6 +21,7 @@ Contents/pages :
 3) View articles page 
       Show all the articles from localstorage , sorted by creation date, recent on top
       Show links having text as article title
+      Show edit and delete options to the owner
       On click of article link open article in new page with author, creation date and other article contents below it
       
 Articles has to be fetched from services
