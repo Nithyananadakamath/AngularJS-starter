@@ -1,0 +1,25 @@
+
+Create an angular js application to create and display articles
+Contents/pages : 
+1) Login page
+    Create users in service file with username and password
+    Once logged in successfully, save a session object to sessionStorage
+2) Add article page 
+    A form containing title, category and article content fields (2 input fields)
+    Save button
+    Save article to localStorage as Json as below :-
+    articles : {
+      id : //combination of userName + creation date
+      articleTitle : // title of the article
+      category : //  article category
+      articleContent : // content
+      userId : //logged in userid
+      creationdate : //date created 
+   } 
+3) View articles page 
+      Show all the articles from localstorage , sorted by creation date, recent on top
+      Show links having text as article title
+      On click of article link open article in new page with author, creation date and other article contents below it
+      
+Articles has to be fetched from services
+Use textangular for article content field
