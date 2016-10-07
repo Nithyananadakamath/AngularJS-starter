@@ -2,7 +2,7 @@
 Create an angular js application to create and display articles
 Contents/pages : 
 1) Login page
-    Create users in service file with username and password
+    Create users in a json file and read it
     Once logged in successfully, save a session object to sessionStorage
 2) Add article page 
     A form containing title, category and article content fields (2 input fields)
