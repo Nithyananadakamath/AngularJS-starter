@@ -21,7 +21,7 @@ Contents/pages :
 3) View articles page 
       Show all the articles from localstorage , sorted by creation date, recent on top
       Show links having text as article title
-      Show edit and delete options to the owner
+      Show edit and delete options to the owner (Confirm for delete, open content in popup and update for edit)
       On click of article link open article in new page with author, creation date and other article contents below it
       
 Articles has to be fetched from services
