@@ -8,14 +8,16 @@ Contents/pages :
     A form containing title, category and article content fields (2 input fields)
     Save button
     Save article to localStorage as Json as below :-
-    articles : {
-      id : //combination of userName + creation date
-      articleTitle : // title of the article
-      category : //  article category
-      articleContent : // content
-      userId : //logged in userid
-      creationdate : //date created 
-   } 
+    articles : [
+                   {
+                      id : //combination of userName + creation date
+                      articleTitle : // title of the article
+                      category : //  article category
+                      articleContent : // content
+                      userId : //logged in userid
+                      creationdate : //date created 
+                   }
+                ] 
 3) View articles page 
       Show all the articles from localstorage , sorted by creation date, recent on top
       Show links having text as article title
